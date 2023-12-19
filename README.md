@@ -1,5 +1,8 @@
 # Chess-from-scratch
-A basic version of chess game that surprisingly implements a lot of features.
+A basic version of chess game that surprisingly implements a lot of features.<br />
+(I'm dumping the entire project folder here)<br />
+Source Code can be accessed from:
+>Chess Project / Final Project / Code / Random_movegen_Chess.c
 
 Description:
 I built this program in my first year of college to learn programming concepts and how to implement ideas into code. This was a project to challenge myself to make a relatively complex game in c language. It implements all of basic features required to play a game.
