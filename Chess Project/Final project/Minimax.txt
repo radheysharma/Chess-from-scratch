@@ -1,0 +1,26 @@
+max func. alpha= -1000-9*90-2*50-2*31-2*30
+               =-2032 --> -2048
+min func.  beta= 2032 -->2048
+value = move value
+
+if(white)
+if(alpha>=beta) return alpha;
+else
+from(int i=0,i<63,i++)
+{if move==1; move;
+alpha=minimax();
+ if(value>alpha)
+alpha=value;
+}
+return alpha;
+
+else if(black)
+if(alpha>=beta) return beta;
+else
+from(int i=0,i<63,i++)
+{if move==1; move;
+beta=minimax();
+if(value<beta)
+beta=value;
+}
+return beta;
